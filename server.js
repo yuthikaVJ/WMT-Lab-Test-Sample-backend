@@ -16,7 +16,7 @@ mongoose
     console.error("Error connecting to MongoDB:", err);
   });
 
-const itemRoutes = require("./routes/items");
+const itemRoutes = require("./routes/Items");
 app.use("/api/items", itemRoutes);
 
 const PORT = process.env.PORT || 5000;
